@@ -36,7 +36,7 @@ export type GeneralSetting = Exclude<
   "formToShow" | "formToHeading" | "formsOrder" | "showBulletPoints"
 >;
 
-export const DEFAULT_THEME_COLOR = "black";
+export const DEFAULT_THEME_COLOR = "green";
 export const DEAFULT_FONT_FAMILY = "Roboto";
 export const DEFAULT_FONT_SIZE = "11";
 export const DEFAULT_FONT_COLOR = "#171717";
