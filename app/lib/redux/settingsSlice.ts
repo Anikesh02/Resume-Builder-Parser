@@ -1,5 +1,4 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import { act } from "react-dom/test-utils";
 import { RootState } from "./store";
 
 export interface Settings {
@@ -37,7 +36,7 @@ export type GeneralSetting = Exclude<
   "formToShow" | "formToHeading" | "formsOrder" | "showBulletPoints"
 >;
 
-export const DEFAULT_THEME_COLOR = "#388E3C";
+export const DEFAULT_THEME_COLOR = "black";
 export const DEAFULT_FONT_FAMILY = "Roboto";
 export const DEFAULT_FONT_SIZE = "11";
 export const DEFAULT_FONT_COLOR = "#171717";
