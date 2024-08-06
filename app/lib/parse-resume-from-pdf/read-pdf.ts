@@ -1,8 +1,8 @@
 import { TextItem, TextItems } from "./types";
 import * as pdfjs from "pdfjs-dist";
 
-import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
-pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+// import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
+// pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 import type { TextItem as PdfjsTextItem } from "pdfjs-dist/types/src/display/api";
 
